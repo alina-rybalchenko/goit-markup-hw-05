@@ -591,8 +591,28 @@
               
              <!-- OBStTextarea must be together <textarea></textarea> without space between-->
               <textarea class="modal-textarea" name="user-text" id="user-text" placeholder="Text input"></textarea>
+          
+            </div>
 
-          </div>
+            <div class="modal-check-field">
+              <input
+                type="checkbox"
+                name="policy"
+                id="policy"
+                class="modal-check visually-hidden"
+                value="true"
+              />
+              <label for="policy" class="check-text">
+                <span class="check-element">
+                  <svg class="check-icon" width="10" height="8">
+                    <use href="./images/icons.svg#icon-check"></use>
+                  </svg>
+                </span>
+                I accept the terms and conditions of the&nbsp;
+                <a href="#" class="privacy-link">Privacy Policy</a>
+              </label>
+            </div>
+
           <button type="submit" class="submit-button btn-primary">Send</button>
         </form>
       </div>
