@@ -67,7 +67,7 @@
       <section class="hero-section">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="hero-button">Order Service</button>
+          <button type="button" class="hero-button btn-primary" data-modal-open>Order Service</button>
         </div>
       </section>
       <!-- #endregion Hero Section -->
@@ -504,15 +504,38 @@
             </li>
           </ul>
         </div>
-      </div>
-    </footer>
+
+        <div class="footer-subscribe">
+          <p class="footer-label">Subscribe</p>
+          <form class="subscribe-form">
+            <div class="subscribe-field">
+              <label for="subscribe-email" class="subscribe-input-text"></label>
+              <div class="subscribe-input-cover">
+                <input
+                  type="email"
+                  class="subscribe-input"
+                  name="subscribe-email"
+                  id="subscribe-email"
+                  placeholder="E-mail"
+                />
+                <button type="submit" class="subscribe-button">
+                  Subscribe
+                  <svg class="submit-input-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-send"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+          </footer>
 
     <!-- #endregion Footer -->
 
     <!-- #region Modal-->
-    <div class="backdrop is-open">
+    <div class="backdrop" data-modal>
       <div class="modal">
-        <button type="button" class="modal-close">
+        <button type="button" class="modal-close" data-modal-close>
           <svg class="modal-close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-cross"></use>
           </svg>
@@ -570,10 +593,11 @@
               <textarea class="modal-textarea" name="user-text" id="user-text" placeholder="Text input"></textarea>
 
           </div>
-          <button type="submit" class="submit-button">Send</button>
+          <button type="submit" class="submit-button btn-primary">Send</button>
         </form>
       </div>
     </div>
     <!-- #endregion Modal-->
+     <script src="./js/modal.js"></script>
   </body>
 </html>
