@@ -757,12 +757,11 @@ img {
   height: 8px;
 }
 
-span.check-element {
+.check-element {
   width: 16px;
   height: 16px;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  display: inline-flex;
   margin-right: 8px;
   align-items: center;
   justify-content: center;
@@ -777,4 +776,5 @@ span.check-element {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+  display: inline-flex;
 }
