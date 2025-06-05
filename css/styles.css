@@ -757,7 +757,7 @@ img {
   height: 8px;
 }
 
-.check-element {
+span.check-element {
   width: 16px;
   height: 16px;
   border-radius: 2px;
