@@ -67,7 +67,9 @@
       <section class="hero-section">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="hero-button btn-primary" data-modal-open>Order Service</button>
+          <button type="button" class="hero-button btn-primary" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
       <!-- #endregion Hero Section -->
@@ -509,7 +511,10 @@
           <p class="footer-label">Subscribe</p>
           <form class="subscribe-form">
             <div class="subscribe-field">
-              <label aria-label="subscribe-email" class="subscribe-input-text"></label>
+              <label
+                aria-label="subscribe-email"
+                class="subscribe-input-text"
+              ></label>
               <div class="subscribe-input-cover">
                 <input
                   type="email"
@@ -528,7 +533,8 @@
             </div>
           </form>
         </div>
-          </footer>
+      </div>
+    </footer>
 
     <!-- #endregion Footer -->
 
@@ -587,38 +593,43 @@
               </svg>
             </div>
           </div>
-            <div class="modal-field">
-              <label for="user-text" class="modal-input-text">Comment</label>
-              
-             <!-- OBStTextarea must be together <textarea></textarea> without space between-->
-              <textarea class="modal-textarea" name="user-text" id="user-text" placeholder="Text input"></textarea>
-          
-            </div>
 
-            <div class="modal-check-field">
-              <input
-                type="checkbox"
-                name="policy"
-                id="policy"
-                class="modal-check visually-hidden"
-                value="true"
-              />
-              <label for="policy" class="check-text">
-                <span class="check-element">
-                  <svg class="check-icon" width="10" height="8">
-                    <use href="./images/icons.svg#icon-check"></use>
-                  </svg>
-                </span>
-                I accept the terms and conditions of the&nbsp;
-                <a href="#" class="privacy-link">Privacy Policy</a>
-              </label>
-            </div>
+          <div class="modal-field">
+            <label for="user-text" class="modal-input-text">Comment</label>
+
+            <!-- OBStTextarea must be together <textarea></textarea> without space between-->
+            <textarea
+              class="modal-textarea"
+              name="user-text"
+              id="user-text"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+
+          <div class="modal-check-field">
+            <input
+              type="checkbox"
+              name="policy"
+              id="policy"
+              class="modal-check visually-hidden"
+              value="true"
+            />
+            <label for="policy" class="check-text">
+              <span class="check-element">
+                <svg class="check-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the&nbsp;
+              <a href="#" class="privacy-link">Privacy Policy</a>
+            </label>
+          </div>
 
           <button type="submit" class="submit-button btn-primary">Send</button>
         </form>
       </div>
     </div>
     <!-- #endregion Modal-->
-     <script src="./js/modal.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
